@@ -21,3 +21,6 @@ VALUES ('Ivan3', 'Ivanov3', '50', '2222222', 'Moscow');
 insert into persons (name, surname, age, phone_number, city_of_living)
 VALUES ('Ivan4', 'Ivanov4', '40', '2222222', 'Novgorod');
 
+select * from persons
+where age > '27'
+order by age desc;
